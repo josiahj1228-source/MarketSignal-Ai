@@ -1,0 +1,58 @@
+MARKETSIGNAL AI — START HERE (MAC)
+
+You do NOT need to understand the code to try the project.
+
+PART 1 — OPEN THIS GUIDE
+1. In Finder, open your Downloads folder.
+2. Double-click marketsignal_ai_website.zip to unzip it.
+3. Open the new folder called marketsignal_predictive.
+4. To read this guide later, double-click START_HERE_MAC.txt. It should open in TextEdit.
+
+PART 2 — RUN THE WEBSITE ON YOUR MAC
+This first setup has a few steps. You only need to do them once, unless you move to a new computer.
+
+1. Install Python:
+   - Go to https://www.python.org/downloads/macos/
+   - Download and install a current Python 3 version.
+
+2. Install Visual Studio Code:
+   - Go to https://code.visualstudio.com/download
+   - Download the Mac version and install it.
+
+3. Open the project:
+   - Open Visual Studio Code.
+   - Choose File > Open Folder.
+   - Select the extracted folder named marketsignal_predictive.
+
+4. Open the Terminal inside VS Code:
+   - At the top of the screen choose Terminal > New Terminal.
+   - A panel opens at the bottom. Copy and paste this line, then press Return:
+
+   python3 -m pip install -r requirements.txt
+
+   Wait for it to finish. If macOS asks permission or shows an error, stop and ask for help rather than guessing.
+
+5. Start the website:
+   - Copy and paste this line into that same terminal, then press Return:
+
+   python3 -m streamlit run app.py
+
+6. Open the website:
+   - The terminal should show a local address, usually http://localhost:8501
+   - Hold Command and click the address, or copy it into Safari or Chrome.
+   - Keep the terminal open while using the website. To stop it, click the terminal and press Control+C.
+
+PART 3 — WHAT THE DATA FILE IS
+The file marketsignal_synthetic_example.csv is fake example data used to test that the app works. It is NOT real evidence that the AI can predict success. For meaningful estimates, you need historical product data with actual outcomes.
+
+PART 4 — PUBLISHING IT ONLINE
+The app can be published using GitHub and Streamlit Community Cloud:
+- GitHub: https://github.com/
+- Streamlit hosting: https://share.streamlit.io/
+
+Publishing requires you to sign in to those services and approve access. Never send me or anyone else your password. I cannot sign into or publish to your accounts from this chat, but I can guide you through each screen. The website is not public until the deployment service finishes publishing and gives you a web address.
+
+IMPORTANT
+- The app currently does not automatically collect live market data.
+- Predictions depend on the quality of real historical data you provide.
+- Do not treat a prediction as a guarantee.
